@@ -1,8 +1,12 @@
-import sys
 
-def IsStringUnique (InputString):
-    return InputString
+def is_unique(input_string):
+    letters = {}
+    for letter in input_string:
+        if letter in letters:
+            return False
+        letters[letter] = True
+    return True
 
 
 if __name__ == "__main__":
-    print(IsStringUnique(sys.argv[-1]))
+    print(is_unique(input('Please Enter Your String:')))

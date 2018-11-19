@@ -10,7 +10,7 @@
 
 
 # *** Questions ***
-# 1)  Is the string  an ASCII string or a Unicode string? ASCII
+# 1)  Is the string an ASCII string or a Unicode string? ASCII
 
 
 def is_unique(input_string):
